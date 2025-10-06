@@ -93,7 +93,7 @@ public class Calculator {
         });
     }
 
-    public static void main(String[] args) {
+    static void main() {
         SwingUtilities.invokeLater(() -> {
             JFrame f = new JFrame("Bruchrechner");
             f.setContentPane(new Calculator().Calculator);
